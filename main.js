@@ -217,6 +217,11 @@ $(document).ready(function(){
     });
  });
  }
+ $(document).ready(function(){
+    $('.profile').click(function(event){
+        $(".social").toggleClass("torerro");
+    });
+ });
  
 
 

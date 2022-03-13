@@ -1119,41 +1119,59 @@ form {
     }
 }
 @media screen and (max-width:1024px) {
+    .main{
+
+        overflow-x: hidden;
+    }
     .header{
         width: 100px;
+        max-height: 1200px;
+        height: 1200px;
+    }
+    .container{
+        max-height: 1024px;
+        height: 1024px;
     }
     .content{
         padding-left: 10px;
     }
     .spd{
-        width: 400px;
-        height: 200px;
+        width: 800px;
+        height: 340px;
     }
+    .formal{
+        display: block;
+        height: 900px;
+        /* overflow-x: hidden; */
+    }
+    /* .social{
+        display: none;
+    } */
     .blot{
         position: relative;
     }
     .shad{
-        width: 220px;
+        /* width: 220px;
         height: 180px;
         top: -80px;
-        left: 80px;
+        left: 80px; */
     }
     .blotter img{
        opacity: 0;
     }
     .text_game{
-        position: relative;
+        /* position: relative;
         z-index: 2;
         padding-top: 10px;
         overflow: hidden ;
-        padding-left: 30px;
+        padding-left: 30px; */
     }
     .name_game{
         width: 200px;
         white-space: wrap;
     }
     .name_game h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     .price{
         width: 170px;
@@ -1168,52 +1186,52 @@ form {
         padding-left: 30px;
     }
     .most_famous{
-        width: 400px;
+        width: 800px;
+        height: 300px;
     }
     .games_most{
-        width: 400px;
+        width: 800px;
+        height: 245px;
     }
     .card_games{
-        width: 120px;
+        width: 250px;
     }
     #crog{
-        width: 120px;
-        height: 80px;
+        width: 250px;
+        height: 160px;
     }
     .card_photo1{
-        width: 120px;
-        height: 80px;
+        width: 250px;
+        height: 160px;
     }
     .card_photo2{
-        width: 120px;
-        height: 80px;
+        width: 250px;
+        height: 160px;
     }
     .card_photo img{
-        width: 120px;
+        width: 250px;
         object-fit: cover;
     }
     .card_photo1 img{
-        width: 120px;
+        width: 250px;
         object-fit: cover;
     }
     .card_photo2 img{
-        width: 120px;
+        width: 250px;
         object-fit: cover;
     }
     .card_text{
-        width: 120px;
+        width: 250px;
     }
     .library{
-        width: 400px;
-    }
-    .container{
-        height: 978px;
+        width: 800px;
     }
     .info_about{
-        height: 862px;
+        height: 925px;
     }
     .formal{
         height: 862px;
+        position: relative;
     }
     .content{
         height: 862px;
@@ -1229,16 +1247,34 @@ form {
         margin-bottom: 200px;
     }
     .social{
-        height: 880px;
+        height: 923px;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        z-index: 2;
     }
+    .party{
+        margin-bottom: 60px;
+    }
+    /* .libr_name p{
+        display: none;
+    }
+    .date_libr p{
+        opacity: 0;
+    } */
+    .social.torerro{
+        right: 0;
+        background: linear-gradient(179.63deg, #383838 0.3%, #636363 0.31%, #252323 32.15%);
+        
+    }
+}
+@media screen and (max-width:500px){
     .libr_name p{
         display: none;
     }
     .date_libr p{
         opacity: 0;
     }
-}
-@media screen and (max-width:500px){
     form{
         width: 180px;
         margin-right: 20px;
@@ -1253,18 +1289,22 @@ form {
         justify-content: space-between;
     }
     .spd{
-        width: 200px;
-        height: 140px;
+        width: 400px;
+        height: 220px;
+        margin-bottom: 120px;
     }
-    .name_game{
+    .text_game{
+        padding-top: 40px;
+    }
+    /* .name_game{
         width: 80px;
-    }
-    .new{
+    } */
+    /* .new{
         width: 40px;
         height: 22px;
         padding-top: 2px;
         margin-bottom: 7px;
-    }
+    } */
     .header{
         width: 80px;
     }
@@ -1272,35 +1312,34 @@ form {
         width: 80px;
     }
     .shad{
-        width: 100px;
-        height: 80px;
-        top: -30px;
-        left: 180px;
+        width: 220px;
+        height: 180px;
+        top: -80px;
+        left: 80px;
     }
-    .blot
-    .new p{
+    /* .new p{
         font-size: 12px;
-    }
-    .name_game h1{
+    } */
+    /* .name_game h1{
         font-size: 12px;
         margin-bottom: 10px;
-    }
-    .text_game{
+    } */
+    /* .text_game{
         width: 120px
-    }
-    .phon_image{
+    } */
+    /* .phon_image{
         width: 80px;
-    }
+    } */
     .price{
-        height: 33px;
-        width: 100px;
+        height: 40px;
+        width: 150px;
     }
     .price p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .purch a{
         font-size: 12px;
-        padding: 6px 1px;
+        padding: 10px 5px;
     }
     .text_game{
         padding-left: 15px;
@@ -1320,47 +1359,47 @@ form {
     
 }
     .most_famous{
-        width: 200px;
+        width: 400px;
     }
     .games_most{
-        width: 200px;
+        width: 400px;
     }
     .text_fam h1{
         font-size: 16px;
     }
     .card_games{
-        width: 60px;
+        width: 120px;
     }
     #crog{
-        height: 40px;
+        height: 70px;
     }
     .card_photo1{
-        height: 40px;
-        width: 65px;
+        height: 70px;
+        width: 120px;
     }
     .card_photo2{
-        width: 65px;
-        height: 40px;
+        width: 120px;
+        height: 70px;
     }
     .card_photo img{
-        width: 65px;
+        width: 120px;
         object-fit: cover;
     }
     .card_photo1 img{
-        width: 65px;
+        width: 120px;
         object-fit: cover;
     }
     .card_photo2 img{
-        width: 65px;
+        width: 120px;
         object-fit: cover;
     }
     .card_text{
-        width: 65px;
+        width: 120px;
     }
     .card_text p{
         font-size: 10px;
     }
-    .before{
+    /* .before{
         padding: 2px 2px;
     }
     .after.active{
@@ -1377,19 +1416,23 @@ form {
     }
     .after2.active{
         padding: 2px 2px;
-    }
+    } */
     .card_price{
-        width: 60px;
+        width: 120px;
     }
     .library{
-        width: 200px;
+        width: 400px;
         overflow: scroll;
     }
     .social{
-        width: 190px;
-        overflow: scroll;
+        position: absolute;
+        right: -100%;
+        top: 0;
     }
-    .party{
+    .formal{
+        position: relative;
+    }
+    /* .party{
         width: 700px;
     }
     .friends{
@@ -1397,10 +1440,17 @@ form {
     }
     .contact{
         width: 700px;
-    }
+    } */
     .main{
         height: 844px;
-        overflow: scroll;
+        min-width: 600px;
+        /* overflow: scroll; */
+        overflow-x: hidden;
+        max-height: 884px;
+        min-height: 844px;
+    }
+    body{
+        max-height: 844px;
     }
 }
 .shadows{
