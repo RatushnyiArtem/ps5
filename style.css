@@ -1443,11 +1443,12 @@ form {
     } */
     .main{
         height: 844px;
-        min-width: 600px;
         /* overflow: scroll; */
         overflow-x: hidden;
         max-height: 884px;
         min-height: 844px;
+        width: 100%;
+        max-width: 844px;
     }
     body{
         max-height: 844px;
