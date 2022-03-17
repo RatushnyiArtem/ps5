@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assassins;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face{
+    font-family: 'Assassins';
+    src: url(./fonts/Assassin$.ttf) format('truetype');
+    font-weight: normal;
+    font-style: inherit;
+    
+}
+.main{
+    min-width: 1900px;
+    margin: 0 auto;
+    height: 3188px;
+    display: block;
+    /* max-width: 1920px; */
+    max-width: 1920px;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu{
+    height: 60px;
+    min-width: 1900px; 
+    width: 100%;
+    max-width: 1920px;
+    background: url(./image/Group\ 48095333.png);
+    background-size: cover;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    z-index: 2;
+    padding-left: 50px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_menu{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.text_menu a{
+    color: #FFFFFF;
+    opacity: 0.4;
+    transition: all .4s linear;
+    font-size: 28px;
+}
+.text_menu a:hover{
+    opacity: 1;
+}
+.block_info{
+    min-width: 1900px; 
+    height: 1410px;
+    width: 100%;
+    max-width: 1920px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 75%);
+    background: url(./image/image\ 76.png);
+    background-size: cover;
+    padding-top: 245px;
+    padding-left: 1040px;
+}
+.game_play{
+    width: 369px;
+    height: 396px;
+    margin-bottom: 58px;
+}
+.photo_game{
+    margin-bottom: 30px;
+}
+.story_game{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.btn_game a{
+    padding: 14px 70px;
+    border: 0.2px solid #13AB93;
+    background: #161616;
+    opacity: .7;
+    color: white;
+    clip-path: polygon(5% 0%, 0% 100%, 93% 100%, 100% 0%);
+    /* position: relative; */
+    /* top: 0;
+    left: 0;
+    z-index: 2; */
+    /* display: table-cell; */
+    transition: all .4s linear;
+}
+.btn_game a:hover{
+    background: #13AB93;
+    border: none;
+}
+.block_info1{
+    position: absolute;
+    min-width: 1900px; 
+    top: 914px;
+    height: 1300px;
+    width: 100%;
+    max-width: 1920px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 75%);
+    background: url(./image/Frame\ 1.png);
+    background-size: cover;
+    z-index: 1;
+    padding-top: 180px;
+    padding-left: 60px;
+}
+.main_text h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.story_flex{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.story_flex p{
+    width: 247px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+}
+.design_story{
+    height: 210px;
+    width: 318px;
+    background: url(./image/Rectangle\ 490.png);
+    padding-top: 149px;
+    padding-left: 186px;
+    margin-bottom: 40px;
+}
+.dark_age{
+    width: 134px;
+    height: 57px;
+    background: rgba(248, 248, 248, 0.25);
+    opacity: 0.9;
+    backdrop-filter: blur(80px);
+    padding-top: 6px;
+    padding-left: 12px;
+    /* line-height: 22px;
+    letter-spacing: -0.01rem; */
+    /* font-weight: 400; */
+}
+.dark_age p {
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: -0.01rem;
+}
+.contact_story{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+.block_info2{
+    min-width: 1900px; 
+    position: absolute;
+    height: 1300px;
+    width: 100%;
+    position: absolute;
+    top: 1889px;
+    max-width: 1920px;
+    background: url(./image/raphael-lacoste-bg-game-raph.jpg);
+    background-size: cover;
+    z-index: 0;
+    padding-top: 300px;
+}
+.persons{
+    width: 720px;
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+.persons img{
+    transition: all .4s linear;
+    outline: 1px solid rgba(255, 255, 255, 0.226);  
+}
+.persons img:hover{
+    outline: 1px solid #13ab9494;
+}
+.contact_story i{
+    color: white;
+    opacity: 0.6;
+    font-size: 18px;
+    transition: all .4s linear;
+}
+.contact_story i:hover{
+    font-size: 20px;
+    opacity: 1;
+}
+.text_main{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin-bottom: 130px;
+}
+.content_block{
+    padding-left: 120px;
+    margin-bottom: 200px;
+}
+.pred_picture{
+    position: absolute;
+    top: -60px;
+    left: 6px;
+    z-index: -1;
+}
+.adventure{
+    display: flex;
+    height: 326px;
+    position: relative;
+    width: 1098px;
+    align-items: center;
+}
+.photo_adv{
+    width: 549px;
+    height: 330px;
+
+}
+.teftol{
+    width: 549px;
+    height: 322px;
+    background: rgba(196, 196, 196, 0.25);
+    backdrop-filter: blur(49px);
+    /* position: relative; */
+    padding-left: 55px;
+    padding-top: 40px;
+    padding-right: 75px;
+}
+.main_advent{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 25px;
+    font-style: normal;
+    margin-bottom: 41px;
+}
+.dop_advent{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+        line-height: 29px;  
+}
+.content_second_block{
+    padding-left: 400px;
+}
+.action{
+    display: flex;
+    position: relative;
+}
+.action_text{
+    width: 549px;
+    height: 326px;
+    background: rgba(196, 196, 196, 0.25);
+    backdrop-filter: blur(56px);
+}
+.pred_picture1{
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    z-index: -1;
+}
+.action_text{
+    padding-left: 60px;
+    padding-top: 42px;
+    padding-right: 52px;
+}
+.mn_action{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 25px;
+    font-style: normal;
+    margin-bottom: 55px;
+}
+.dop_action{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+        line-height: 29px;  
+}
+.burger{
+    display: none;
+}
+@media screen and (max-width: 1020px) {
+    .burger::before{
+        content: "";
+        background-color: #13AB93;
+        position: absolute;
+         width: 100%;
+         height: 2px;
+         left: 0;
+         top: 0;
+         transition: all 1s;
+     }
+     .burger{
+         z-index: 10;
+         position: relative;
+         width: 30px;
+         height: 30px;
+         display: block;
+         /* background-color: #fff; */
+     }
+     .burger::after{
+         content: "";
+         background-color: #13AB93;
+         position: absolute;
+          width: 100%;
+          height: 2px;
+          left: 0;
+          bottom: 10px;
+         transition: all 1s;
+      }
+      .burger span{
+          height: 2px;
+          width: 100%;
+          position: absolute;
+          background-color: #13AB93;
+          left: 0;
+          top: 9px;
+          transition: all 1s;
+      }  
+      .text_menu{
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 10%;
+        height: 100%;
+        background-color: rgb(85, 84, 84);
+        padding: 80px 220px;
+        transition: all 1s linear;
+    }
+    .text_menu.active{
+        top: 0;
+        right: 0;
+        /* flex-direction: column; */
+        display: block;
+        width: 10%;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    .text_menu.active li{
+        margin-bottom: 80px;
+        width: 100%;
+    }
+    .burger.active::before{
+        transform: rotate(45deg);
+        top: 10px;
+    }
+    .burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 18px;
+    }
+    .burger.active span{
+        transform: scale(0);
+    }
+}

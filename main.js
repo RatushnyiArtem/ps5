@@ -117,7 +117,7 @@ $(document).ready(function(){
         <h1 class="whatnew">If you want to know something new click 
            <br> 
            button below</h1>
-        <a class="whatever" href="">Official site</a>
+        <a class="whatever" href="./Assasin's creed Valhalla/index.html">Official site</a>
     </div>
     <div class="price">
         <div class="cost">
